@@ -1,12 +1,11 @@
 "use client";
 
 import { Shell } from "@/components/layout/Shell";
-import { Overview } from "@/components/dashboard/Overview";
-import { Insights } from "@/components/dashboard/Insights";
+import { Transactions } from "@/components/dashboard/Transactions";
 import { AddTransactionModal } from "@/components/dashboard/AddTransactionModal";
 import { useFinance } from "@/context/FinanceContext";
 
-export default function Home() {
+export default function TransactionsPage() {
   const { role, setIsAddModalOpen } = useFinance();
 
   return (
@@ -14,9 +13,9 @@ export default function Home() {
       <div className="flex flex-col gap-8">
         <div className="border-b border-black dark:border-white pb-4 flex justify-between items-start">
           <div>
-            <h1 className="text-3xl font-bold text-black dark:text-white uppercase tracking-widest">Dashboard</h1>
+            <h1 className="text-3xl font-bold text-black dark:text-white uppercase tracking-widest">All Transactions</h1>
             <p className="mt-2 text-black dark:text-white font-medium">
-              Financial Activity Summary
+              Search, filter, and review your financial history.
             </p>
           </div>
           
@@ -30,12 +29,9 @@ export default function Home() {
           )}
         </div>
 
-        <Overview />
-
-        <Insights />
+        <Transactions />
+        <AddTransactionModal />
       </div>
-      
-      <AddTransactionModal />
     </Shell>
   );
 }

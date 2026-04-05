@@ -1,0 +1,37 @@
+import { Transaction } from "@/types";
+
+export const initialTransactions: Transaction[] = [
+  { id: "e1", date: "2026-03-10", amount: 40, category: "Food", type: "expense", description: "Chai and samosa from roadside stall" },
+  { id: "e2", date: "2026-03-10", amount: 65, category: "Transport", type: "expense", description: "Autorickshaw to office" },
+  { id: "e3", date: "2026-03-11", amount: 320, category: "Groceries", type: "expense", description: "Vegetables from local market" },
+  { id: "e4", date: "2026-03-11", amount: 120, category: "Food", type: "expense", description: "Dal and roti lunch" },
+  { id: "e5", date: "2026-03-12", amount: 99, category: "Utilities", type: "expense", description: "Mobile recharge - Jio 2GB" },
+  { id: "e6", date: "2026-03-12", amount: 500, category: "Transport", type: "expense", description: "Bike fuel" },
+  { id: "e7", date: "2026-03-13", amount: 50, category: "Food", type: "expense", description: "Panipuri from street vendor" },
+  { id: "e8", date: "2026-03-13", amount: 450, category: "Groceries", type: "expense", description: "Rice and daal" },
+  { id: "e9", date: "2026-03-14", amount: 800, category: "Clothing", type: "expense", description: "Kurta from local shop" },
+  { id: "e10", date: "2026-03-14", amount: 80, category: "Transport", type: "expense", description: "Autorickshaw to market" },
+  { id: "e11", date: "2026-03-16", amount: 300, category: "Entertainment", type: "expense", description: "Movie ticket - Hindi film" },
+  { id: "e12", date: "2026-03-16", amount: 180, category: "Food", type: "expense", description: "Dosa and sambhar" },
+  { id: "e13", date: "2026-03-17", amount: 799, category: "Utilities", type: "expense", description: "Internet bill" },
+  { id: "e14", date: "2026-03-17", amount: 50, category: "Transport", type: "expense", description: "Train ticket - local" },
+  { id: "e15", date: "2026-03-18", amount: 100, category: "Food", type: "expense", description: "Chaat from chaatwala" },
+  { id: "e16", date: "2026-03-19", amount: 280, category: "Groceries", type: "expense", description: "Spices - turmeric, cumin" },
+  { id: "e17", date: "2026-03-20", amount: 400, category: "Transport", type: "expense", description: "Taxi to client meeting" },
+  { id: "e18", date: "2026-03-21", amount: 350, category: "Food", type: "expense", description: "Biryani from restaurant" },
+  { id: "e19", date: "2026-03-23", amount: 2100, category: "Utilities", type: "expense", description: "Electricity bill" },
+  { id: "e20", date: "2026-03-25", amount: 800, category: "Entertainment", type: "expense", description: "Cricket match tickets" },
+
+  { id: "i1", date: "2026-03-10", amount: 12000, category: "Internship", type: "income", description: "Monthly stipend - Codemetron MERN" },
+  { id: "i2", date: "2026-03-12", amount: 2500, category: "Freelance", type: "income", description: "uTest bug testing - 5 completed tests" },
+  { id: "i3", date: "2026-03-14", amount: 5000, category: "Side Project", type: "income", description: "Website design - small business" },
+  { id: "i4", date: "2026-03-15", amount: 4200, category: "Freelance", type: "income", description: "uTest testing batch - 8 tests" },
+  { id: "i5", date: "2026-03-16", amount: 3000, category: "Placement", type: "income", description: "Referral commission - 1 student placed" },
+  { id: "i6", date: "2026-03-18", amount: 1800, category: "Freelance", type: "income", description: "uTest exploratory testing" },
+  { id: "i7", date: "2026-03-20", amount: 1500, category: "Tutoring", type: "income", description: "DSA coaching session - 2 hours" },
+  { id: "i8", date: "2026-03-22", amount: 2000, category: "Placement", type: "income", description: "Coordinator incentive - March" },
+  { id: "i9", date: "2026-03-24", amount: 3100, category: "Freelance", type: "income", description: "uTest functionality testing - 6 tests" },
+  { id: "i10", date: "2026-03-26", amount: 4500, category: "Side Project", type: "income", description: "React dashboard component" },
+  { id: "i11", date: "2026-03-27", amount: 2400, category: "Freelance", type: "income", description: "uTest regression testing" },
+  { id: "i12", date: "2026-03-28", amount: 1200, category: "Tutoring", type: "income", description: "Online mentoring - 1 student" }
+];
